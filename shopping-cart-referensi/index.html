@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart Example</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/ref.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Keranjang Boy</h1>
+ </header>
+  
+      
+ <main>
+    <div class="container"> 
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Boba Boy Original</h3>
+            <p class="price">15.0</p>
+            <button class="addtocart">Tambah ke keranjang</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Es Krim Boba Boy</h3>
+            <p class="price">18.0</p>
+            <button class="addtocart">Tambah ke keranjang</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Roti Boba Boy</h3>
+            <p class="price">12.0</p>
+            <button class="addtocart">Tambah ke keranjang</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Keranjang</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Harga</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td><span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Kosongkan Keranjang</button>
+            <button id="checkout">Bayar</button>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+<footer>Referensi dari codehim</footer>
+
+        <script  src="./js/script.js"></script> 
+
+  </body>
+</html>
